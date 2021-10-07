@@ -1,0 +1,8 @@
+reset;
+model da_s.mod;
+data da_s.dat;
+option solver cplex;
+
+	   
+solve;
+ display pmda, pechp, pes_ch, pes_dis,  se, ths_ch, ths_dis, sth; 
